@@ -6,33 +6,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="images/favicon_io/favicon.ico"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
         <title>Travel</title>
     </head>
     <body>
         <div class="container">
             <header>
-                <img src="images/logo.svg" alt="Tourism" />
+                <img
+                    src="images/logo.svg"
+                    alt="Tourism"
+                    width="133"
+                    height="31"
+                />
                 <nav>
-                    <ul>
-                        <li>HOME</li>
-                        <li>ABOUT US</li>
-                        <li>OUR SERVICES</li>
-                        <li>TOUR PACKAGE</li>
+                    <ul class="header-ul">
+                        <li class="header-li">HOME</li>
+                        <li class="header-li">ABOUT US</li>
+                        <li class="header-li">OUR SERVICES</li>
+                        <li class="header-li">TOUR PACKAGE</li>
                     </ul>
                 </nav>
             </header>
             <div class="sections">
                 <div class="s-1">
-                    <div class="price">
-                        <img src="images/bg1.png" alt="" />
-                        <p>From $199/Person</p>
-                    </div>
-                    <div class="discover">
-                        <i class="fa-solid fa-arrow-left"></i>
-                        <p class="s1-p">TRAVEL WITH UNIQUE EXPERIENCE</p>
-                        <h1>Discover Greece</h1>
-                        <i class="fa-solid fa-arrow-right"></i>
+                    <div class="s1-wrapper">
+                        <div class="price">
+                            <img id="grad1" src="images/bg1.svg" alt="" />
+                            <div class="s1p1">
+                                <p class="s1-p1">From $199/Person</p>
+                            </div>
+                        </div>
+                        <div class="discover">
+                            <div class="header-arrow">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                            <div class="s1-text">
+                                <h1>Discover Greece</h1>
+                                <p class="s1-p2">
+                                    TRAVEL WITH UNIQUE EXPERIENCE
+                                </p>
+                            </div>
+                            <div class="header-arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="s-2">
@@ -102,7 +129,7 @@
                     <div class="s3-div">
                         <p class="s3-p">DISCOVER</p>
                         <h2 class="s3-h2">Watch Our Video Tour</h2>
-                        <img src="images/line1.png" alt="images" />
+                        <img src="images/line1.svg" alt="images" />
                     </div>
                     <video
                         src="https://www.youtube.com/watch?v=3t33zXTP0ak"
@@ -143,7 +170,7 @@
                     <div class="s4-text">
                         <p class="s4-p">WE OFFER</p>
                         <h2 class="header-h2">Popular Tour Package</h2>
-                        <img src="images/line.png" alt="" />
+                        <img src="images/line.svg" alt="" />
                     </div>
                     <div class="s4-cards">
                         <div class="s4-card1">
@@ -331,5 +358,9 @@
                 <p class="rights">trourism©All Rights Reserved</p>
             </footer>
         </div>
+        <script
+            src="https://kit.fontawesome.com/4fb1e1c9df.js"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>

@@ -214,6 +214,7 @@ video {
 }
 .s4-p1 {
     font-size: 14px;
+    margin-top: 17px;
     margin-bottom: 16px;
 }
 .s4-h2 {
@@ -222,3 +223,29 @@ video {
     font-weight: bold;
     margin-bottom: 9px;
 }
+.s4-card1 {
+    position: relative;
+}
+.honeymoon {
+    position: absolute;
+    font-size: 14px;
+    width: 98px;
+    height: 25px;
+    background-color: #fed701;
+    margin-top: -235px;
+    margin-left: 10px;
+    padding: 6px 9px;
+}
+.holiday {
+    position: absolute;
+    font-size: 14px;
+    width: 67px;
+    height: 25px;
+
+    background-color: #fed701;
+    margin-top: -235px;
+    margin-left: 10px;
+    padding: 6px 9px;
+}
+
+/* section-5 */

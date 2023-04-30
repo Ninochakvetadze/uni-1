@@ -1,6 +1,7 @@
 .container {
     max-width: 1360px;
     width: 100%;
+    margin: 0 auto;
     font-family: "Raleway", sans-serif;
 }
 header {
@@ -18,7 +19,7 @@ header {
     font-size: 15px;
     color: #303134;
 }
- /* section-1 */
+/* section-1 */
 .s-1 {
     background-image: linear-gradient(#08eab5, #24d2fe);
     width: 100%;
@@ -72,3 +73,50 @@ h1 {
 }
 
 /* section-2 */
+.s-2 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 95px;
+}
+.s2-div {
+    width: 242.5px;
+    height: 237.6px;
+}
+.s2-p1 {
+    font-size: 15px;
+    color: #8d8d8d;
+    margin-bottom: 15px;
+}
+.s2-h2 {
+    font-size: 25px;
+    margin-bottom: 13px;
+    color: #1a1a1b;
+}
+.s2-p2 {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #8d8d8d;
+}
+.s2-card-wrapper {
+   margin-left: 58px;
+    
+}
+.up, .down {
+    display: flex;
+    justify-content: space-between;
+}
+.card1 {
+    width: 270.1px;
+    height: 327.4px;
+    margin-left: 30px;
+}
+.card-h2 {
+    font-size: 17px;
+    color: #1a1a1b;
+    margin-top: 10px;
+}
+.card-p {
+    font-size: 15px;
+    color: #8d8d8d;
+    margin-top: 12px;
+}

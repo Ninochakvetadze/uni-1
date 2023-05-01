@@ -29,6 +29,7 @@ header {
 .s1-wrapper {
     height: 570px;
     background-image: url("/images/bg.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -130,6 +131,7 @@ h1 {
 
 .s3-div {
     background-image: url(/images/bg5.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -259,6 +261,7 @@ video {
 /* section-5 */
 .s-5 {
     background-image: url(/images/bg3.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -355,6 +358,7 @@ button[type="button"] {
 /* section-7 */
 .s-7 {
     background-image: url(/images/bg4.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: fill;
     background-attachment: scroll;

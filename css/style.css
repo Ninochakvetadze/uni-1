@@ -3,6 +3,7 @@
     width: 100%;
     margin: 0 auto;
     font-family: "Raleway", sans-serif;
+    scroll-behavior: smooth;
 }
 header {
     height: 81px;

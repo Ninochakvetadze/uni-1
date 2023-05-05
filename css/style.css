@@ -67,6 +67,7 @@ header {
     height: 33px;
     background-color: #fff;
     margin-top: 60px;
+    cursor: pointer;
 }
 h1 {
     font-size: 78px;
@@ -236,6 +237,11 @@ video {
 }
 .s4-card1 {
     position: relative;
+}
+.s4-card1 :hover {
+    transform: scale(1.05);
+    transition: all 1s ease;
+    cursor: pointer;
 }
 .honeymoon {
     position: absolute;
@@ -412,6 +418,11 @@ button[type="submit"] {
 
 .s8-card1 {
     position: relative;
+}
+.s8-card1 :hover {
+    transform: scale(1.05);
+    transition: all 1s ease;
+    cursor: pointer;
 }
 .s8-country {
     font-size: 30px;

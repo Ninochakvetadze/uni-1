@@ -6,12 +6,15 @@
     scroll-behavior: smooth;
 }
 header {
-    height: 81px;
-    margin-left: 95px;
+    /* height: 81px; */
+    /* margin-left: 95px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 .header-ul {
     display: flex;
@@ -420,14 +423,23 @@ button[type="submit"] {
     margin-bottom: 9px;
 }
 
-.s8-card1 {
+/* .s8-card1 {
     position: relative;
+    transition-duration: 1s;
+} */
+
+.s8-cards .s8-card1 {
+    position: relative;
+    transition-duration: 1s;
 }
-.s8-card1 :hover {
+.s8-cards .s8-card1:hover {
     transform: scale(1.05);
-    transition: all 1s ease;
-    cursor: pointer;
 }
+/* .s8-card1 :hover {
+    transform: scale(1.05);
+    cursor: pointer;
+} */
+
 .s8-country {
     font-size: 30px;
     color: #fff;
